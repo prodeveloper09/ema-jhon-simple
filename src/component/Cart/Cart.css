@@ -1,0 +1,52 @@
+.order-summary {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #ebe5e5;
+  position: sticky;
+  top: 20px;
+}
+
+/* Row style */
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+  font-size: 14px;
+  color: #444;
+}
+
+/* Total highlight */
+.summary-total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 15px 0;
+  color: #b12704;
+}
+
+/* Free shipping badge */
+.free-shipping {
+  margin-top: 10px;
+  color: green;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* Button */
+.checkout-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #ffd814;
+  border: 1px solid #fcd200;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.checkout-btn:hover {
+  background-color: #f7ca00;
+}
